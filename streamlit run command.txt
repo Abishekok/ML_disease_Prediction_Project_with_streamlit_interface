@@ -1,0 +1,1 @@
+streamlit run "/workspaces/ML_disease_Prediction_Project_with_streamlit_interface/disease_prediction.py"
