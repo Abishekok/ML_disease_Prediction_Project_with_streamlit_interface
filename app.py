@@ -4,11 +4,11 @@ from streamlit_option_menu import option_menu
 
 # Loading ML Models
 
-diabetes_model = pickle.load(open("/workspaces/ML_disease_Prediction_Project_with_streamlit_interface/diabetes_model.sav", 'rb'))
+diabetes_model = pickle.load(open("diabetes_model.sav", 'rb'))
 
-heart_disease_model = pickle.load(open("/workspaces/ML_disease_Prediction_Project_with_streamlit_interface/heart_disease_model.sav", 'rb'))
+heart_disease_model = pickle.load(open("heart_disease_model.sav", 'rb'))
 
-parkinson_model = pickle.load(open("/workspaces/ML_disease_Prediction_Project_with_streamlit_interface/parkinson_model.sav", 'rb'))
+parkinson_model = pickle.load(open("parkinson_model.sav", 'rb'))
 
 
 #sidebar
